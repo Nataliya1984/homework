@@ -1,0 +1,59 @@
+.friendMessage {
+    padding: 24px 70px;
+}
+
+.friendImageAndText {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.friendImageAndText img {
+
+}
+
+.friendText {
+    background-color: #F5F7FB;
+    color: wheat;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.friendText:after {
+
+}
+
+.friendName {
+    padding: 3px 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.friendMessageText {
+    padding: 4px 8px;
+    color: #000000;
+    font-family: 'Montserrat';
+}
+
+.friendTime {
+    padding: 5px 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 10px;
+    color: #000000;
+}
+
+.dropletLeft:after {
+    position: absolute;
+    content: '';
+    bottom: -6px;
+    left: 48px;
+    width: 16px;
+    height: 16px;
+    clip-path: url(#left-droplet);
+    background-color: #F5F7FB;
+}
