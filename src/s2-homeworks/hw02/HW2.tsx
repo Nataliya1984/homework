@@ -67,7 +67,7 @@ function HW2() {
     return (
         <div id={'hw2'}>
             <div className={s2.hwTitle}>Homework #2</div>
-            <div className={s2.hw}>
+            <div className={s2.hw}  style={{padding:'24px 70px'}}>
                 <Affairs
                     data={filteredAffairs}
                     setFilter={setFilter}
