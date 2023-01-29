@@ -9,6 +9,8 @@
 }
 
 .label {
+    display: flex;
+    padding: 0px 110px 22px;
 }
 
 .options {
