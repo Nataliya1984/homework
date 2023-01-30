@@ -1,23 +1,51 @@
 .item {
+
 }
 
 .item:last-of-type {
+
 }
 
 .users {
+
 }
 
-.buttonsContainer {
+.buttonsContainer button{
+    margin: 38px 10px 20px;
 }
 
 .container {
 }
 
 .thead {
+    background-color: #E5E5E5;
 }
 
 .nameCol {
+text-align: left;
+    width: 20%;
 }
 
 .ageCol {
+
+}
+
+
+tbody{
+
+}
+
+tr{
+    border-bottom: 1px solid #E5E5E5;
+}
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin-left: 70px;
+}
+
+th, td {
+    height: 48px;
+    padding-left: 17px;
 }
