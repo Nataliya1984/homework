@@ -54,7 +54,7 @@ const HW8 = () => {
     }
 
     return (
-        <div id={'hw3'}  >
+        <div id={'hw3'}>
             <div className={s2.hwTitle}>Homework #8</div>
             <div className={s2.hw}>
                 <div className={s.container}>
@@ -84,9 +84,9 @@ const HW8 = () => {
 
                     <table id={'hw8-users'} className={s.users}>
                         <thead className={s.thead}>
-                        <tr style={{backgroundColor:'E5E5E5'}}>
-                            <td className={s.nameCol} >Name</td>
-                            <td className={s.ageCol} >Age</td>
+                        <tr style={{backgroundColor: 'E5E5E5'}}>
+                            <td className={s.nameCol}>Name</td>
+                            <td className={s.ageCol}>Age</td>
                         </tr>
                         </thead>
 
