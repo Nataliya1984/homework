@@ -14,7 +14,7 @@ const HW9 = () => {
         <div id={'hw9'}>
             <div className={s2.hwTitle}>Homework #9</div>
 
-            <div className={s2.hw}>
+            <div className={s2.hw} style={{padding:'20px 70px'}}>
                 <Clock />
             </div>
         </div>
