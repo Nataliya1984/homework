@@ -19,5 +19,16 @@ html {
 }
 
 .select {
-
+    height: 36px;
+    width: 171px;
+    outline: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    border: 1px solid #323232;
+    border-radius: 2px;
+    background-color: var(--background);
+    color: var(--color);
 }
